@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===== C++ Build Files =====
+*.o
+*.obj
+*.gch
+*.pch
+*.exe
+*.out
+*.class
+*.log
+*.dll
+*.a
+*.so
+*.dylib
+*.dSYM/
+*.vcxproj.*
+*.cmake
+CMakeFiles/
+Makefile
+cmake-build-*/
+
+Update .gitignore to include C++ build files
+
