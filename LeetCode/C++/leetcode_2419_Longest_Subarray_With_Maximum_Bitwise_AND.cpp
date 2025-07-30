@@ -1,4 +1,4 @@
-# LeetCode POTD - Longest Subarray With Maximum Bitwise AND
+# LeetCode POTD - 2419_Longest Subarray With Maximum Bitwise AND
 # Date: 2025-07-30
 
 class Solution {
