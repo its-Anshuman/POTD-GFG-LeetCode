@@ -1,0 +1,19 @@
+# GFG - Roman Number to Integer
+# Date: 2025-08-06
+
+class Solution:
+    def romanToDecimal(self, s): 
+        # code here
+        mp = {'I': 1, 'V': 5, 'X': 10,
+              'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        
+        n = len(s)
+        res = 0
+        
+        for i in range(n):
+            if i + 1 < n and mp[s[i]] < mp[s[i + 1]]:
+                res -= mp[s[i]]
+            else:
+                res += mp[s[i]]
+        
+        return res
